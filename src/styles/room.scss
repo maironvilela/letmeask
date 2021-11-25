@@ -1,0 +1,168 @@
+#roomPage{ 
+   flex-direction: column;
+ 
+  header{
+    border-bottom: 1px solid #E2E2E2; 
+    padding: 16px 90px; 
+
+    div.content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      >div{
+        display: flex;
+        gap: 16px;      
+
+        button{
+          height: 38px;
+          width: 120px;
+        } 
+      }
+
+      img{
+        max-width: 100px;
+        max-height: 45px;
+      }
+    }     
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    align-items: center;
+  
+    div.content{
+       min-width: 70%;
+
+      >div.room{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        align-content: center;
+
+        h1{
+          font-size:24px;
+          font-weight: 700;
+          font-family: 'Poppins', 'sans-serif';
+        }
+
+        span.badges{
+          margin-left: 8px;
+          background: #e559f9;
+          border-radius: 9999px;
+          padding:8px 16px;
+          color:#fff;
+          font-weight: 500;
+          font-size:14;
+       
+        }
+      }
+
+      form{
+        margin-top:32px;
+        textarea {
+          width: 100%;
+          border: 0;
+          padding:16px;
+          border-radius: 8px;
+          background: #fefefe;
+          box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+          min-height: 130px;
+          min-width: 200px;
+        }
+
+        >div{
+          display: flex;
+          justify-content:space-between;
+          align-items:center;
+          > span{
+             color: #737380;
+             font-size:14px;
+             margin-top: 16px;
+  
+            button.btn-login{
+               background: transparent;
+               border: 0px;
+               color: #835AFD; 
+               margin: 0;
+               margin-left: 3px;
+               width: 110px;
+               font-weight: 500;
+            }
+           }       
+         }    
+      }
+
+      .form-footer{
+        margin-top: 8px;
+        display:flex;
+        align-items: center;
+        justify-content: flex-start;
+        img{
+          border-radius: 50%;
+          margin-top: 12px;
+          width:32px;
+          height:32px;
+          margin-right: 0px;
+          display: inline;
+        }
+        >span{
+           margin-left: 5px;
+           color: #29292e;
+           font-weight: 500; 
+        }
+      } 
+
+      .questions{
+        margin-top: 32px;    
+        button{
+          gap: 8px;
+          display: flex;
+          align-items: flex-end;
+          background:transparent;
+          border: 0;
+          color: #737380;
+          
+          transition:filter 0.2s;
+
+          &:not(.answered){ 
+            cursor: pointer;
+             &:hover{
+              filter: brightness(0.6);  
+            }   
+  
+            &.liked{
+              color: #835AFD;
+              svg{
+                path{
+                  stroke: #835AFD;
+                }              
+              }
+            }
+
+          }
+
+     
+        }         
+      }
+
+      .actions{
+        display: flex;
+        gap:16px;
+      }       
+    } 
+ 
+  }
+}
+           
+
+         
+         
+         
+   
+  
+  
+ 
