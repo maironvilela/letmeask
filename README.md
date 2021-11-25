@@ -19,9 +19,9 @@ O projeto consiste em um ambiente onde pode-se criar salas onde os usuários con
 Como principais recursos da aplicação, podemos destacar a utilização dos seguintes serviços do Firebase:
 >**Firebase Authentication**: Autenticação social com login e senha do Google
 
->**Firebase Realtime Database**: Utilização do banco de dados NoSQL Realtime para iterações com o banco de dados em tempo real  
->**Firebase Hosting**: Utilização para hospedar a aplicação   
-<hr>
+>**Firebase Realtime Database**: Utilização do banco de dados NoSQL Realtime para iterações com o banco de dados em tempo real 
+ 
+>**Firebase Hosting**: Utilização para hospedar a aplicação
 
 ## Tecnologias
 
@@ -56,7 +56,7 @@ Como principais recursos da aplicação, podemos destacar a utilização dos seg
     ```
 4. Configure as variáveis de ambiente de acordo com as informações disponível no projeto criado no firebase
 
-    ```ts
+    ```bash
     #Configuração firebase
 
     #chave de API do projeto
@@ -83,35 +83,31 @@ Como principais recursos da aplicação, podemos destacar a utilização dos seg
 
   5. Execute o projeto 
       ```bash
-      yarn dev
+      yarn start
        ```
 
-  6. Acesse o projeto através da url: [**http://localhost:3000**](http://localhost:3000)
-
-<hr>
+  6. Acesse o projeto através da url: [**http://localhost:3000**](http://localhost:3000) 
 
 ## Funções do Sistema
-[x] Temas light e dark
+✔️ Temas light e dark
 
-[x] Criar uma sala com uma conta da Google
+✔️ Criar uma sala com uma conta da Google
 
-[x] Entrar em uma sala ja criada com o código da sala
+✔️ Entrar em uma sala ja criada com o código da sala
 
-[x] Escrever uma pergunta (Visitante da sala)
+✔️ Escrever uma pergunta (Visitante da sala)
 
-[x] Dar like em uma pergunta (Visitante da sala)
+✔️ Dar like em uma pergunta (Visitante da sala)
 
-[x] Copiar o código da sala (Criador da Sala)
+✔️ Copiar o código da sala (Criador da Sala)
 
-[x] Encerrar Sala (Criador da Sala)
+✔️ Encerrar Sala (Criador da Sala)
 
-[x] Marcar pergunta como prioridade (Criador da Sala)
+✔️ Marcar pergunta como prioridade (Criador da Sala)
 
-[x] Marcar uma pergunta como respondida (Criador da Sala)
+✔️ Marcar uma pergunta como respondida (Criador da Sala)
 
-[x] Apagar pergunta (Criador da Sala)  
-
-<hr> 
+✔️ Apagar pergunta (Criador da Sala)   
 
 ## Link Produção
  [![Letmeask](./src/assets/readme/home.png)](https://letmeask-609e9.firebaseapp.com/)
