@@ -12,7 +12,7 @@
 </p> 
 
 ## Sobre o Projeto
-Letmask é um projeto desenvolvido na edição do NLW 6 da Rocketseat.
+Letmeask é um projeto desenvolvido na edição do NLW 6 da Rocketseat.
  
 O projeto consiste em um ambiente onde pode-se criar salas onde os usuários conectados podem fazer perguntas para o administrador da sala. Tem como cenário para sua utilização, a transmissão de uma live onde os expectadores possam enviar suas perguntas 
 

@@ -59,11 +59,10 @@ const AdminRoom  = () => {
           <img src={Logo} alt="Letmeask"/>
           <div>
             <RoomCode code={roomId}/> 
-            <Button className="finish-room"
+            <Button  
                     isOutline
                     onClick={handleCloseRoom}>
               Encerrar Sala
-
              </Button>    
           </div>
         </div>

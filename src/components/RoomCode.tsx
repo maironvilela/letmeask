@@ -6,9 +6,7 @@ import {Button} from '../components/Button'
 
 type RoomCodeProps = {
   code: string;
-} 
-
- 
+}  
 const RoomCode  = ({code}: RoomCodeProps) => {
   //copia um conteudo da pagina
   function copyRoomCodeToClipboard(){
