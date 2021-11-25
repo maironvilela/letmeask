@@ -15,12 +15,10 @@ type AuthContextType={
   singInWithGoogle: () => Promise<void>   
   loading: boolean;
   toggleLoading(value:boolean):void
-
 }
 
 type AuthContextProviderProps ={
   children: ReactNode
-
 }
 
 
