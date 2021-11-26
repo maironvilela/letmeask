@@ -5,9 +5,12 @@
  <p align="center">
   <a href="#sobre-o-projeto">Sobre o Projeto</a> |
   <a href="#tecnologias">Tecnologias</a> | 
-  <a href="#pré-requisitos">Pré-Requisitos</a>   |
-  <a href="#executando-a-aplicação">Executando a aplicação</a>   |
+  <a href="#pré-requisitos">Pré-Requisitos</a> |
+  <a href="#executando-a-aplicação">Executando a aplicação</a>    
+</p> 
+ <p align="center">   
   <a href="#funções-do-sistema">Funções do Sistema</a>   |
+  <a href="#link-video-demonstrativo"> Link Video Demonstrativo</a>   |   
   <a href="#link-produção">Link Produção</a>   
 </p> 
 
@@ -107,7 +110,10 @@ Como principais recursos da aplicação, podemos destacar a utilização dos seg
 
 ✔️ Marcar uma pergunta como respondida (Criador da Sala)
 
-✔️ Apagar pergunta (Criador da Sala)   
+✔️ Apagar pergunta (Criador da Sala)  
+
+## Link Video Demonstrativo
+ [![Letmeask](https://user-images.githubusercontent.com/4884154/143583226-7fadb30a-f97a-48ce-b12f-afc284e6ce00.gif)](https://www.youtube.com/watch?v=PMU0tdS0Zj0) 
 
 ## Link Produção
  [![Letmeask](./src/assets/readme/home.png)](https://letmeask-609e9.firebaseapp.com/)
